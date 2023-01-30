@@ -27,24 +27,26 @@
 			<!-- SIGN UP -->
 			<div class="col align-items-center flex-col sign-up">
 				<div class="form-wrapper align-items-center">
+					<form action="login_register" method="post">
+						@csrf
 					<div class="form sign-up">
 						<div class="input-group">
 							<i class='bx bxs-user'></i>
-							<input type="text" placeholder="Username">
+							<input type="text" name="username" placeholder="Username">
 						</div>
 						<div class="input-group">
 							<i class='bx bx-mail-send'></i>
-							<input type="email" placeholder="Email">
+							<input type="email" name="email" placeholder="Email">
 						</div>
 						<div class="input-group">
 							<i class='bx bxs-lock-alt'></i>
-							<input type="password" placeholder="Password">
+							<input type="password" name="password" placeholder="Password">
 						</div>
 						<div class="input-group">
 							<i class='bx bxs-lock-alt'></i>
-							<input type="password" placeholder="Confirm password">
+							<input type="password" name="cnfpassowrd" placeholder="Confirm password">
 						</div>
-						<button>
+						<button type="submit">
 							Sign up
 						</button>
 						<p>
@@ -55,7 +57,9 @@
 								Sign in here
 							</b>
 						</p>
+						<p> <a href="{{'/admin'}}">Dashboard</a></p>
 					</div>
+					</form>
 				</div>
 			
 			</div>
@@ -63,16 +67,18 @@
 			<!-- SIGN IN -->
 			<div class="col align-items-center flex-col sign-in">
 				<div class="form-wrapper align-items-center">
+					<form action="login_register" method="post">
+						@csrf
 					<div class="form sign-in">
 						<div class="input-group">
 							<i class='bx bxs-user'></i>
-							<input type="text" placeholder="Username">
+							<input type="text"  name="email" placeholder="Username">
 						</div>
 						<div class="input-group">
 							<i class='bx bxs-lock-alt'></i>
-							<input type="password" placeholder="Password">
+							<input type="password"  name="password" placeholder="Password">
 						</div>
-						<button>
+						<button type="submit">
 							Sign in
 						</button>
 						<p>
@@ -88,7 +94,9 @@
 								Sign up here
 							</b>
 						</p>
+						<p> <a href="{{'/admin'}}">Dashboard</a></p>
 					</div>
+					</form>
 				</div>
 				<div class="form-wrapper">
 		

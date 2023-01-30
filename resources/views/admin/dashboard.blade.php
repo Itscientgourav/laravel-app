@@ -15,30 +15,20 @@ Laravel-Admin Dashboard
     <div class="table-responsive">
       <table class="table">
         <thead class=" text-primary">
+          <th>Id</th>
           <th>Name</th>
-          <th>Country</th>
-          <th>City</th>
+          <th>E-mail</th>
           <th>Salary</th>
         </thead>
         <tbody>
+        @foreach ($users as $user)
           <tr>
-            <td>Dakota Rice</td>
-            <td>Niger</td>
-            <td>Oud-Turnhout</td>
-            <td>$36,738</td>
+            <td>{{$user->slno}}</td>
+            <td>{{$user->name}}</td>
+            <td>{{$user->email}}</td>
+            <td>$36</td>
           </tr>
-          <tr>
-            <td>Dakota gyame</td>
-            <td>Niger</td>
-            <td>Oud-Turnhout</td>
-            <td>$36,738</td>
-          </tr>
-          <tr>
-            <td>Dakota gyame</td>
-            <td>Niger</td>
-            <td>Oud-Turnhout</td>
-            <td>$36,738</td>
-          </tr>
+        @endforeach
         </tbody>
       </table>
     </div>
