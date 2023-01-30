@@ -16,6 +16,12 @@
             </a>
           </li>
           <li>
+            <a href="{{'/login-register'}}">
+              <i class="now-ui-icons design_app"></i>
+              <p>Login</p>
+            </a>
+          </li>
+          <li>
             <a href="{{'/admin/items'}}">
               <i class="now-ui-icons education_atom"></i>
               <p>Icons</p>

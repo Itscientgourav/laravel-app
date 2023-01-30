@@ -22,3 +22,6 @@ Route::get('/admin', function () {
 Route::get('/admin/items', function () {
     return view('admin.item');
 });
+Route::get('/login-register', function () {
+    return view('admin.login');
+});
