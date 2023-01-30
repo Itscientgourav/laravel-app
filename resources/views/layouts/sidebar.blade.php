@@ -35,13 +35,13 @@
             <div class="collapse" id="collapseExample">
               <div class=" py-2 collapse-inner rounded">
                 <a href="{{'/'}}">
-                  <i class="now-ui-icons education_atom" style="margin-left:50px;"></i>
-                  <p style="color:White;font-weight:bolder; margin-left:100px;">Group Item</p>
+                  <i class="now-ui-icons design_app" style="margin-left:50px;"></i>
+                  <p style="color:White;text-transform: uppercase; font-size:10px; margin-left:100px;">Group Item</p>
                 </a>
                 <br>
                 <a href="{{'/'}}">
-                  <i class="now-ui-icons education_atom" style="margin-left:50px;"></i>
-                  <p style="color:White;font-weight:bolder; margin-left:100px;">Groups Parts</p>
+                  <i class="now-ui-icons ui-1_bell-53" style="margin-left:50px;"></i>
+                  <p style="color:White;text-transform: uppercase; font-size:10px; margin-left:100px;">Groups Parts</p>
                 </a>
               </div>
             </div>
